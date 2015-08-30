@@ -6,10 +6,10 @@ CURRENT_MAC=$(sysctl hw.model)
 echo $CURRENT_MAC
 if [ "$CURRENT_MAC" == "$MAC_PRO" ]; then
 	echo "-- Starting Backup of Mac Pro --"
-    # Here's a sample rsync command, remove the first # to uncomment:
-    # rsync -avzPi --delete "/Users/yourname/Test\ Source\ Folder/" "/Users/yourname/Test\ Target\ Folder/"
+	# Here's a sample rsync command, remove the first # to uncomment:
+	# rsync -avzPi --delete "/Users/yourname/Test\ Source\ Folder/" "/Users/yourname/Test\ Target\ Folder/"
 else 
-    echo "-- Starting Backup of MacBook Pro --"
-    # Here's a sample rsync command, remove the # to uncomment:
-    # rsync -avzPi --delete "/Users/yourname/Test\ Source\ Folder/" "/Users/yourname/Test\ Target\ Folder/"
+	echo "-- Starting Backup of MacBook Pro --"
+	# Here's a sample rsync command, remove the # to uncomment:
+	# rsync -avzPi --delete "/Users/yourname/Test\ Source\ Folder/" "/Users/yourname/Test\ Target\ Folder/"
 fi
