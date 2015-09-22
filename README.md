@@ -5,8 +5,13 @@ Various shell scripts I collected during these years for different aims
 The script will operate in the current terminal dir and will rename all "0.jpg" files to "pano_f.jpg" .
 The full naming convention (based on panotour to krpano) is this:
 0.jpg >> pano_f.jpg
+
 1.jpg >> pano_r.jpg
+
 2.jpg >> pano_b.jpg
+
 3.jpg >> pano_l.jpg
+
 4.jpg >> pano_u.jpg
+
 5.jpg >> pano_d.jpg
