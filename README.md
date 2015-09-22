@@ -4,6 +4,7 @@ Various shell scripts I collected during these years for different aims
 ### rename_012345_to_pano_faces.sh
 The script will operate in the current terminal dir and will rename all "0.jpg" files to "pano_f.jpg" .
 The full naming convention (based on panotour to krpano) is this:
+
 0.jpg >> pano_f.jpg
 
 1.jpg >> pano_r.jpg
