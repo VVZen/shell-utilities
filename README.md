@@ -3,7 +3,6 @@ Various shell scripts I collected during these years for different aims
 
 ### maya_batch_render.sh
 This script will simply render a maya scene to specified path.
-
 Can be useful for queuing multiple scenes on the same machine.
 
 ### rename_012345_to_pano_faces.sh
