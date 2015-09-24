@@ -16,3 +16,7 @@ The full naming convention (based on panotour to krpano) is this:
 4.jpg >> pano_u.jpg
 
 5.jpg >> pano_d.jpg
+
+### maya_batch_render.sh
+This script will simply render a maya scene to specified path.
+Can be useful for queuing multiple scenes on the same machine.
