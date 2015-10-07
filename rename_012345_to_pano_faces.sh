@@ -1,9 +1,10 @@
 #!bin/bash
+# Renames 0,1,2,3,4,5 to pano faces and thumbnail.jpg to thumb.jpg
 prefix="pano"
 echo "\n\t\t##### STARTED RENAMING #####"
-for zero in */*.jpg; do
-    picname=$(basename $zero)
-    foldername=$(dirname $zero)
+for pic in */*.jpg; do
+    picname=$(basename $pic)
+    foldername=$(dirname $pic)
     if [ "$picname" == "0.jpg" ]; then
         oldname=$foldername"/"$picname
         newname=$foldername"/"$prefix"_f.jpg"
@@ -40,5 +41,12 @@ for zero in */*.jpg; do
         echo "Renaming" $oldname "to" $newname
         mv $oldname $newname
     fi
+    if [ "$picname" == "thumbnail.jpg" ]; then
+        oldname=$foldername"/"$picname
+        newname=$foldername"/thumb_d.jpg"
+        echo "Renaming" $oldname "to" $newname
+        mv $oldname $newname
+    fi
 done
-echo "\t\t##### ENDED RENAMING #####"
+echo "\t\t##### ENDED RENAMING #####"
+echo "\n"
