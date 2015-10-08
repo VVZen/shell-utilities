@@ -1,6 +1,6 @@
 #!bin/bash
 # needs imagemagick installed
-echo "Converting.."
+echo "Converting to a 1024x1024 image.."
 for pic in */*.jpg; do
   picname=$(basename $pic)
   if [ "$picname" != "preview.jpg" ]; then
@@ -10,4 +10,3 @@ for pic in */*.jpg; do
     echo "## skipping preview.jpg!!!"
   fi
 done
-echo "..to a 1024x1024 image"
