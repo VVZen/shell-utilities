@@ -43,7 +43,7 @@ for pic in */*.jpg; do
     fi
     if [ "$picname" == "thumbnail.jpg" ]; then
         oldname=$foldername"/"$picname
-        newname=$foldername"/thumb_d.jpg"
+        newname=$foldername"/thumb.jpg"
         echo "Renaming" $oldname "to" $newname
         mv $oldname $newname
     fi
