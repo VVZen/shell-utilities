@@ -31,3 +31,6 @@ Images called "preview.jpg" or "thumb.jpg" won't be converted.
 
 ###rsync_branched_backup.sh
 Rsync backup branched on different macs  (the scripts recognises the hw specs of the current mac). 
+
+###export_png_from_qgis.sh
+Use **QGIS** command line to save png at custom resolution from the current project view. 
