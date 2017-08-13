@@ -5,7 +5,7 @@ The scripts used for the conversion of images require **imagemagick** installed.
 
 Every script was tested inside the **bash** shell in osx.
 
-###convert_png_to_jpg.sh
+### convert_png_to_jpg.sh
 Converts png into jpg.
 Operates by default in the current folder.
 
@@ -25,12 +25,12 @@ The full naming convention (based on panotour to krpano) is this:
 
 5.jpg >> pano_d.jpg
 
-###resize_panoImages_in_subfolder.sh
+### resize_panoImages_in_subfolder.sh
 The script will look for all jpgs bigger than 1024x1024 in all subfolders of current script folder and will resize them to a 1024x1024 image using the Mitchell filter.
 Images called "preview.jpg" or "thumb.jpg" won't be converted.
 
-###rsync_branched_backup.sh
+### rsync_branched_backup.sh
 Rsync backup branched on different macs  (the scripts recognises the hw specs of the current mac). 
 
-###export_png_from_qgis.sh
+### export_png_from_qgis.sh
 Use **QGIS** command line to save png at custom resolution from the current project view. 
